@@ -6,14 +6,14 @@ This Soccer Simulation Game, developed using Qt 13.0.1 Community Edition, organi
 
 1. Qt 13.0.1 Community Edition:
 
-Download Qt Creator: Visit the Qt Offline Installers page to download the installer appropriate for your operating system (Windows, macOS, or Linux).
+Download Qt Creator: Visit the [Qt Offline Installers](https://www.qt.io/download)page to download the installer appropriate for your operating system (Windows, macOS, or Linux).
 
 2. C++ Compiler:
 
 Ensure a compatible C++ compiler is installed:
 
 - **Windows**:
-  - [MinGW-w64](https://sourceforge.net/projects/mingw-w64/) - A Windows port of the GCC (GNU Compiler Collection).
+  - [MinGW-w64](https://sourceforge.net/projects/mingw-w64/) - A Windows port of the GCC (GNU Compiler Collection). You can download and install it from SourceForge.
   - [Microsoft Visual C++](https://visualstudio.microsoft.com/vs/features/cplusplus/) - Included as part of the Visual Studio suite. For free use, download the Community Edition of Visual Studio.
 
 - **macOS**:
@@ -35,7 +35,7 @@ Ensure a compatible C++ compiler is installed:
       ```
 
 3. Git:
--Git is required for version control management and downloading the repository. Download and install it from Git’s official site.
+-Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
 
 4. Clone the repository:
 git clone https://github.com/sebasgim975/RoboCup2DSimulation.git
