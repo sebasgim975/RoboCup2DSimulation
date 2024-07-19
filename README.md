@@ -4,67 +4,57 @@
 This Soccer Simulation Game, developed using Qt 13.0.1 Community Edition, organizes a 5-minute match between two teams, each composed of six players divided into four distinct roles. It operates with minimal user interaction, automatically controlling the game's flow and player positioning.
 ## Installation
 
-1. Install Java JDK
+1. Qt 13.0.1 Community Edition:
 
--Go to the Oracle JDK download page.
+Download Qt Creator: Visit the Qt Offline Installers page to download the installer appropriate for your operating system (Windows, macOS, or Linux).
 
--Select the appropriate JDK for your operating system (make sure it’s JDK 11 or higher).
+2. C++ Compiler:
 
--Download and install the JDK following the instructions provided on the website.
+Ensure a compatible C++ compiler is installed:
 
-2. Install IntelliJ IDEA
+- **Windows**:
+  - [MinGW-w64](https://sourceforge.net/projects/mingw-w64/) - A Windows port of the GCC (GNU Compiler Collection).
+  - [Microsoft Visual C++](https://visualstudio.microsoft.com/vs/features/cplusplus/) - Included as part of the Visual Studio suite. For free use, download the Community Edition of Visual Studio.
 
--Visit the IntelliJ IDEA download page.
+- **macOS**:
+  - [Apple Clang](https://developer.apple.com/xcode/features/): Part of Xcode Command Line Tools, which can be installed directly from the terminal:
+    ```bash
+    xcode-select --install
+    ```
+    Or download Xcode through the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
 
--Choose the edition you prefer (Community Edition is free and sufficient for this project).
+- **Linux**:
+  - [GCC (GNU Compiler Collection)](https://gcc.gnu.org/): Typically available through your distribution’s package manager. For example:
+    - On Ubuntu/Debian-based systems:
+      ```bash
+      sudo apt install build-essential
+      ```
+    - On Fedora/RHEL-based systems:
+      ```bash
+      sudo dnf group install "Development Tools" "C Development Tools and Libraries"
+      ```
 
--Download and install IntelliJ IDEA following the instructions on the site.
+3. Git:
+-Git is required for version control management and downloading the repository. Download and install it from Git’s official site.
 
-3. Clone the repository by inputting the following to a Terminal:
+4. Clone the repository:
+git clone https://github.com/sebasgim975/RoboCup2DSimulation.git
 
-git clone https://github.com/sebasgim975/FlightReservationSystemSimulation.git
+5. Open Project in Qt Creator
 
-4. Open the project in IntelliJ IDEA:
+-Open Qt Creator and navigate to File > Open File or Project.
 
--Start IntelliJ IDEA.
+-Locate and select the CMakeLists.txt or the .pro file in the cloned repository.
 
--Click "Open" and navigate to the project directory.
+-Follow the prompts in Qt Creator to configure the project setup.
 
--Select the project to open it.
+6. Build the Project
 
-5. Configure the JDK:
+-Navigate to Build > Build All to compile the project.
 
--Go to File > Project Structure > Project.
+7. Run the Simulation
 
--Set the Project SDK to the JDK version you installed (e.g., Java 11).
-
-## Usage
-
-To run the project:
-
--Open the Client_Interface.java or ClientTable.java from the project explorer.
-
--Right-click on the file in the editor and select Run 'Client_Interface.main()' or Run 'ClientTable.main()'.
-
-For Booking:
-
--Start Client_Interface.java and follow the on-screen prompts to enter details, select a seat, add services, and provide payment information.
-
-For Viewing Bookings:
-
--Run ClientTable.java to open a window displaying a table with all passenger booking details.
-## Troubleshooting Common Issues
-
-False Error Positives in IntelliJ IDEA
-
-If IntelliJ IDEA shows error highlights that do not affect the program's execution, try the following steps to resolve them:
-
--Invalidate Caches and Restart
-
--Go to File > Invalidate Caches / Restart.
-Click on Invalidate and Restart.
-
--Once IntelliJ IDEA restarts, it will rebuild the project index which can resolve false error positives.
+After building, run the project by navigating to Run > Start Debugging.
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebas-gim/)
 
