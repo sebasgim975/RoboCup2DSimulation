@@ -48,7 +48,7 @@ Ensure a compatible C++ compiler is installed:
     git clone https://github.com/sebasgim975/RoboCup2DSimulation.git
 ```
 
-6. Open Project in Qt Creator
+5. Open Project in Qt Creator
 
 -Open Qt Creator and navigate to File > Open File or Project.
 
