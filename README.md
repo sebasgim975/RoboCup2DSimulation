@@ -43,7 +43,7 @@ Ensure a compatible C++ compiler is installed:
    
    -Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
 
-5. Clone the repository:
+5. Clone the repository using a Terminal app:
 
 ```bash
     git clone https://github.com/sebasgim975/RoboCup2DSimulation.git
