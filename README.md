@@ -40,29 +40,30 @@ Ensure a compatible C++ compiler is installed:
       ```
 
 3. Git:
--Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
+   
+   -Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
 
-4. Clone the repository:
+5. Clone the repository:
 
 ```bash
     git clone https://github.com/sebasgim975/RoboCup2DSimulation.git
 ```
 
-5. Open Project in Qt Creator
+5. Open Project in Qt Creator:
 
--Open Qt Creator and navigate to File > Open File or Project.
+   -Open Qt Creator and navigate to File > Open File or Project.
 
--Locate and select the CMakeLists.txt or the .pro file in the cloned repository.
+   -Locate and select the CMakeLists.txt or the .pro file in the cloned repository.
 
--Follow the prompts in Qt Creator to configure the project setup.
+   -Follow the prompts in Qt Creator to configure the project setup.
 
-6. Build the Project
+6. Build the Project:
 
--Navigate to Build > Build All to compile the project.
+   -Navigate to Build > Build All to compile the project.
 
-7. Run the Simulation
+7. Run the Simulation:
 
-After building, run the project by navigating to Run > Start Debugging.
+   -After building, run the project by navigating to Run > Start Debugging.
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebas-gim/)
 
