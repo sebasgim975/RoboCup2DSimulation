@@ -2,6 +2,11 @@
 # RoboCup Soccer 2D Simulation
 
 This Soccer Simulation Game, developed using Qt 13.0.1 Community Edition, organizes a 5-minute match between two teams, each composed of six players divided into four distinct roles. It operates with minimal user interaction, automatically controlling the game's flow and player positioning.
+
+
+![Screenshot 2024-07-19 233535](https://github.com/user-attachments/assets/c1b301f7-e7fc-4176-9a9f-2fc3bd27a132)
+
+
 ## Installation
 
 1. Qt 13.0.1 Community Edition:
