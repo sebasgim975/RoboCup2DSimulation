@@ -41,7 +41,7 @@ Ensure a compatible C++ compiler is installed:
 
 3. Git:
    
-   -Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
+   -Git is required for version control management and cloning the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
 
 5. Clone the repository using a Terminal app:
 
